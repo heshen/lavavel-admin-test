@@ -3,7 +3,10 @@
 <p>修改数据库配置</p>
 <p>添加 laravel-admin： https://github.com/z-song/laravel-admin</p>
 <p> 运行命令：composer require encore/laravel-admin "1.4.*" </p>
-
+<p> In    config/app.php  add  ServiceProvider: </p>
+<p> Encore\Admin\Providers\AdminServiceProvider::class </p>
+<p> Then run these commands to publish assets and config： </p>
+<p> php artisan vendor:publish --tag=laravel-admin </p>
 
 
 
