@@ -1,6 +1,12 @@
 <p>个人测试 项目 laravel 学习项目</p>
 <p>cp .env.example .env</p>
 <p>修改数据库配置</p>
+<p>添加 laravel-admin： https://github.com/z-song/laravel-admin</p>
+<p> 运行命令：composer require encore/laravel-admin "1.4.*" </p>
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
