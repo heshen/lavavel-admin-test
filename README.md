@@ -7,7 +7,18 @@
 <p> Encore\Admin\Providers\AdminServiceProvider::class </p>
 <p> Then run these commands to publish assets and config： </p>
 <p> php artisan vendor:publish --tag=laravel-admin </p>
+<p>Copied File [/vendor/encore/laravel-admin/config/admin.php] To [/config/admin.php]
+Copied Directory [/vendor/encore/laravel-admin/assets] To [/public/packages/admin]
+Publishing complete.</p>
 
+
+<p>$ php artisan admin:install</p>
+<p>Migrated: 2016_01_04_173148_create_admin_tables
+Admin directory was created: /app/Admin
+HomeController file was created: /app/Admin/Controllers/HomeController.php
+ExampleController file was created: /app/Admin/Controllers/ExampleController.php
+Bootstrap file was created: /app/Admin/bootstrap.php
+Routes file was created: /app/Admin/routes.php</p>
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
