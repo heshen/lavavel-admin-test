@@ -20,6 +20,13 @@ ExampleController file was created: /app/Admin/Controllers/ExampleController.php
 Bootstrap file was created: /app/Admin/bootstrap.php
 Routes file was created: /app/Admin/routes.php</p>
 
+<p> config/filesystems.php</p>
+<p>disks 下面增加 ：
+'admin' => [
+                                       'driver' => 'local',
+                                       'root' => storage_path('app'),
+                                   ],
+</p>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
